@@ -2,7 +2,7 @@
   "name": "outdated",
   "private": true,
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.mjs",
   "dependencies": {
     "chalk": "^5.2.0",
     "npm-api": "^1.0.1",
