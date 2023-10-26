@@ -11,7 +11,7 @@ export default function formatTable(entries) {
     border: getBorderCharacters('void'),
     columnDefault: { paddingLeft: 0, paddingRight: 2 },
     drawHorizontalLine: () => false
-  })
+  }).replace(/\s+$/, '')
 }
 
 function toRow(entry) {
